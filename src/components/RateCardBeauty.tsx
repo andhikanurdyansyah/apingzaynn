@@ -521,34 +521,6 @@ const PackageCard = ({ pack, index, isDarkMode }: {
   </motion.div>
 );
 
-// Stats card component
-const StatsCard = ({ metric, label, index, isDarkMode }: {
-  metric: string;
-  label: string;
-  index: number;
-  isDarkMode: boolean;
-}) => (
-  <motion.div
-    variants={slideIn("up", index * 0.1)}
-    initial="hidden"
-    whileInView="show"
-    viewport={{ once: true }}
-    className="text-center"
-  >
-    <Glass variant="accent" isDark={isDarkMode} className="p-4">
-      <motion.div
-        initial={{ scale: 0 }}
-        whileInView={{ scale: 1 }}
-        transition={{ delay: 0.2 + index * 0.1, type: "spring", damping: 25, stiffness: 120 }}
-        className={`text-2xl font-bold ${isDarkMode ? "text-white" : "text-gray-900"}`}
-      >
-        {metric}
-      </motion.div>
-      <div className={`text-sm mt-1 ${isDarkMode ? "text-gray-300" : "text-gray-600"}`}>{label}</div>
-    </Glass>
-  </motion.div>
-);
-
 export default function RateCardBeauty() {
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [hoveredBrand, setHoveredBrand] = useState<string | null>(null);

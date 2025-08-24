@@ -261,67 +261,67 @@ const DATA = {
   brands: [
     { 
       name: "Wardah", 
-      logo: "/src/assets/brands/wardah.png",
+      logo: "/images/brands/wardah.png",
       category: "Beauty"
     },
     { 
       name: "Emina", 
-      logo: "/src/assets/brands/emina.png",
+      logo: "/images/brands/emina.png",
       category: "Skincare"
     },
     { 
       name: "Pixy", 
-      logo: "/src/assets/brands/pixy.png",
+      logo: "/images/brands/pixy.png",
       category: "Makeup"
     },
     { 
       name: "Somethinc", 
-      logo: "/src/assets/brands/somethinc.png",
+      logo: "/images/brands/somethinc.png",
       category: "Skincare"
     },
     { 
       name: "Azarine", 
-      logo: "/src/assets/brands/azarine.png",
+      logo: "/images/brands/azarine.png",
       category: "Skincare"
     },
     { 
       name: "Y.O.U", 
-      logo: "/src/assets/brands/you.png",
+      logo: "/images/brands/you.png",
       category: "Beauty"
     },
     { 
       name: "Implora", 
-      logo: "/src/assets/brands/implora.png",
+      logo: "/images/brands/implora.png",
       category: "Makeup"
     },
     { 
       name: "BLP Beauty", 
-      logo: "/src/assets/brands/blp.png",
+      logo: "/images/brands/blp.png",
       category: "Beauty"
     },
     { 
       name: "Skintific", 
-      logo: "/src/assets/brands/skintific.png",
+      logo: "/images/brands/skintific.png",
       category: "Skincare"
     },
     { 
       name: "Maybelline", 
-      logo: "/src/assets/brands/maybeline.png",
+      logo: "/images/brands/maybeline.png",
       category: "Makeup"
     },
     { 
       name: "L'Oreal", 
-      logo: "/src/assets/brands/loreal.png",
+      logo: "/images/brands/loreal.png",
       category: "Beauty"
     },
     { 
       name: "Sephora", 
-      logo: "/src/assets/brands/sephora.png",
+      logo: "/images/brands/sephora.png",
       category: "Beauty"
     },
     { 
       name: "Innisfree", 
-      logo: "/src/assets/brands/innisfree.png",
+      logo: "/images/brands/innisfree.png",
       category: "Skincare"
     }
   ]

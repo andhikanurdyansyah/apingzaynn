@@ -173,7 +173,7 @@ const DATA = {
       audience: "92% F • 8% M",
       avgViews: "1.2K", // Adjusted based on follower count
       topGeo: ["Jakarta", "Medan", "Semarang"],
-      totalLikes: "18.9K" // Real data: 18.9K total likes
+      totalLikes: "25K" // Real data: 25K total likes
     },
   },
   achievements: [
@@ -182,7 +182,7 @@ const DATA = {
     { metric: "252", label: "Instagram Posts" }, // Real data: 252 posts
     { metric: "4.2%", label: "Avg Engagement Rate" },
     { metric: "25+", label: "Brand Collaborations" }, // Adjusted for nano influencer
-    { metric: "18.9K+", label: "Total TikTok Likes" } // Real data
+    { metric: "25K+", label: "Total TikTok Likes" } // Real data
   ],
   usp: [
     { icon: <Sparkles className="w-4 h-4" />, text: "Authentic product reviews & skincare tips", highlight: true },
@@ -194,8 +194,6 @@ const DATA = {
     {
       id: "tiktok-review",
       title: "TikTok Product Review",
-      price: "Rp 400.000",
-      originalPrice: "Rp 500.000",
       deliverables: [
         "1x TikTok video review (30-60s)",
         "Authentic product testing & honest opinion",
@@ -212,7 +210,6 @@ const DATA = {
     {
       id: "ig-stories",
       title: "Instagram Stories Package",
-      price: "Rp 250.000",
       deliverables: [
         "3-5x Instagram story frames",
         "Product showcase with swipe-up",
@@ -227,7 +224,6 @@ const DATA = {
     {
       id: "dual-platform",
       title: "Dual Platform Content",
-      price: "Rp 600.000",
       deliverables: [
         "1x TikTok video (30-45s)",
         "3x Instagram story frames",
@@ -241,12 +237,12 @@ const DATA = {
     },
   ],
   addons: [
-    { label: "Commercial Usage Rights (30 days)", price: "+ Rp 150.000", popular: true },
-    { label: "Exclusive Partnership (15 days no‑compete)", price: "+ Rp 250.000" },
-    { label: "Raw Footage Package", price: "+ Rp 100.000" },
-    { label: "Custom Script Development", price: "+ Rp 100.000" },
-    { label: "Rush Delivery (24h turnaround)", price: "+ Rp 150.000" },
-    { label: "Additional Platform Adaptation", price: "+ Rp 150.000" }
+    { label: "Commercial Usage Rights (30 days)", popular: true },
+    { label: "Exclusive Partnership (15 days no‑compete)" },
+    { label: "Raw Footage Package" },
+    { label: "Custom Script Development" },
+    { label: "Rush Delivery (24h turnaround)" },
+    { label: "Additional Platform Adaptation" }
   ],
   terms: [
     "All rates exclude 11% VAT (applicable for registered businesses).",
@@ -256,7 +252,7 @@ const DATA = {
     "Honest review policy applies — authentic opinions guaranteed.",
     "Content timeline may vary based on current booking schedule.",
     "📊 Note: Follower & engagement data updated monthly. Real-time metrics available upon request.",
-    "🔄 Current data: Instagram 3.7K followers (252 posts), TikTok 2.5K followers, 18.9K total likes (last updated: Aug 2025)."
+    "🔄 Current data: Instagram 3.7K followers (252 posts), TikTok 2.5K followers, 25K total likes (last updated: March 2026)."
   ],
   brands: [
     { 
@@ -448,16 +444,6 @@ const PackageCard = ({ pack, index, isDarkMode }: {
               <h3 className={`text-lg font-bold ${isDarkMode ? "text-white" : "text-gray-900"}`}>{pack.title}</h3>
               <p className={`text-xs ${isDarkMode ? "text-gray-300" : "text-gray-600"}`}>{pack.timeline}</p>
             </div>
-          </div>
-        </div>
-
-        {/* Pricing */}
-        <div className="mb-4">
-          <div className="flex items-baseline gap-2">
-            <span className={`text-2xl font-bold ${isDarkMode ? "text-rose-300" : "text-rose-700"}`}>{pack.price}</span>
-            {pack.originalPrice && (
-              <span className={`text-sm line-through ${isDarkMode ? "text-rose-500" : "text-rose-400"}`}>{pack.originalPrice}</span>
-            )}
           </div>
         </div>
 
@@ -1352,7 +1338,6 @@ export default function RateCardBeauty() {
                       : "border-rose-200 bg-rose-50 text-rose-700"
                   }`}>
                     <Heart className="w-3 h-3" /> {a.label}
-                    <span className="ml-1 font-semibold">{a.price}</span>
                   </span>
                 ))}
               </div>
@@ -1871,10 +1856,10 @@ export default function RateCardBeauty() {
                     📊 Real Account Data Status
                   </h5>
                   <div className={`text-xs space-y-1 ${isDarkMode ? "text-amber-300/90" : "text-amber-700"}`}>
-                    <p><strong>Current Data:</strong> TikTok @apingzaynn - 2.5K followers, 18.9K total likes</p>
+                    <p><strong>Current Data:</strong> TikTok @apingzaynn - 2.5K followers, 25K total likes</p>
                     <p><strong>Instagram:</strong> @apingxxvi - Data verification in progress</p>
                     <p><strong>Update Frequency:</strong> Monthly manual updates • Real-time API integration available for premium campaigns</p>
-                    <p><strong>Last Updated:</strong> August 2025</p>
+                    <p><strong>Last Updated:</strong> March 2026</p>
                   </div>
                 </div>
               </div>
